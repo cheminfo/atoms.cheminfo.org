@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Fe(III)",
+    "mf": "Fe(3+)",
+    "relativeError": 0,
+    "answer": 23
+  },
+  {
+    "name": "Eau",
+    "relativeError": 0,
+    "mf": "H2O",
+    "answer": 10
+  },
+  {
+    "name": "Ammoniac",
+    "relativeError": 0,
+    "mf": "NH3",
+    "answer": 10
+  },
+  {
+    "name": "Oxyde",
+    "relativeError": 0,
+    "mf": "O(2-)",
+    "answer": 10
+  },
+  {
+    "name": "Superoxyde",
+    "relativeError": 0,
+    "mf": "O2(1-)",
+    "answer": 17
+  },
+  {
+    "name": "Fluorure de lithium",
+    "relativeError": 0,
+    "mf": "LiF",
+    "answer": 12
+  },
+  {
+    "name": "Trifluorure de bore",
+    "relativeError": 0,
+    "mf": "BF3",
+    "answer": 32
+  },
+  {
+    "name": "Chlorure de sodium",
+    "relativeError": 0,
+    "mf": "NaCl",
+    "answer": 28
+  },
+  {
+    "name": "Magnésie",
+    "relativeError": 0,
+    "mf": "MgO",
+    "answer": 20
+  },
+  {
+    "name": "Ta(V)",
+    "relativeError": 0,
+    "mf": "Ta(5+)",
+    "answer": 68
+  },
+  {
+    "name": "Nitrate",
+    "relativeError": 0,
+    "mf": "NO3(1-)",
+    "answer": 33
+  },
+  {
+    "name": "Monoxyde d'azote",
+    "relativeError": 0,
+    "mf": "NO",
+    "answer": 15
+  },
+  {
+    "name": "Oxyde de dichlore",
+    "relativeError": 0,
+    "mf": "Cl2O",
+    "answer": 42
+  },
+  {
+    "name": "Nitrite",
+    "relativeError": 0,
+    "mf": "NO2(1-)",
+    "answer": 25
+  },
+  {
+    "name": "Hydroxyde de zinc",
+    "relativeError": 0,
+    "mf": "Zn(OH)2",
+    "answer": 48
+  },
+  {
+    "name": "Hydroxyde",
+    "relativeError": 0,
+    "mf": "OH(1-)",
+    "answer": 11
+  },
+  {
+    "name": "Heptoxyde de dibrome",
+    "relativeError": 0,
+    "mf": "Br2O7",
+    "answer": 126
+  },
+  {
+    "name": "Nitrate d'argent",
+    "relativeError": 0,
+    "mf": "AgNO3",
+    "answer": 78
+  },
+  {
+    "name": "Bromure de potassium",
+    "relativeError": 0,
+    "mf": "KBr",
+    "answer": 54
+  },
+  {
+    "name": "Hexafluorure de soufre",
+    "relativeError": 0,
+    "mf": "SF6",
+    "answer": 70
+  },
+  {
+    "name": "Cyclooctasoufre",
+    "relativeError": 0,
+    "mf": "S8",
+    "answer": 128
+  },
+  {
+    "name": "Eau oxygénée",
+    "relativeError": 0,
+    "mf": "H2O2",
+    "answer": 18
+  },
+  {
+    "name": "Acide phosphorique",
+    "relativeError": 0,
+    "mf": "H3PO4",
+    "answer": 50
+  },
+  {
+    "name": "Anion thiosulfate",
+    "relativeError": 0,
+    "mf": "S2O3(2-)",
+    "answer": 60
+  },
+  {
+    "name": "Ammonium",
+    "relativeError": 0,
+    "mf": "NH4(1+)"
+  }
+]

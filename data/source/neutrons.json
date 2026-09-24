@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Ion ferrite",
+    "mf": "[56Fe](3+)",
+    "relativeError": 0,
+    "answer": 30
+  },
+  {
+    "name": "Carbone 12",
+    "relativeError": 0,
+    "mf": "[12C]",
+    "answer": 6
+  },
+  {
+    "name": "Dihydrogène",
+    "relativeError": 0,
+    "mf": "[1H]2",
+    "answer": 0
+  },
+  {
+    "mf": "[88Sr]",
+    "relativeError": 0,
+    "answer": 50,
+    "name": "Strontium"
+  },
+  {
+    "mf": "[238U][19F]6",
+    "relativeError": 0,
+    "answer": 206,
+    "name": "Hexafluorure d'uranium"
+  },
+  {
+    "mf": "[13C]",
+    "relativeError": 0,
+    "answer": 7,
+    "name": "Carbone 13"
+  },
+  {
+    "name": "Deuterium",
+    "relativeError": 0,
+    "mf": "[2H]",
+    "answer": 1
+  },
+  {
+    "name": "Chlore",
+    "relativeError": 0,
+    "mf": "[35Cl][35Cl]",
+    "answer": 36
+  },
+  {
+    "name": "Brome",
+    "relativeError": 0,
+    "mf": "[79Br][81Br]"
+  }
+]

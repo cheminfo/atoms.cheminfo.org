@@ -1,0 +1,32 @@
+import type { ReactElement } from 'react';
+import { MF } from 'react-mf';
+
+import { normalizeFormula } from '../chemistry/formula.ts';
+
+interface QuestionCompoundProps {
+  /** The formula, as the data writes it. */
+  formula: string;
+  /**
+   * The compound's name, written before the formula.
+   * @default undefined
+   */
+  name?: string;
+}
+
+/**
+ * The compound a question is about, as the line the question opens with: its
+ * name, then its formula with subscripts and charge.
+ * @param props - The formula and its name.
+ * @returns The line.
+ */
+export function QuestionCompound(props: QuestionCompoundProps): ReactElement {
+  const { formula, name } = props;
+  return (
+    <p className="question-compound">
+      {name === undefined ? null : (
+        <span className="question-compound__name">{name}</span>
+      )}
+      <MF mf={normalizeFormula(formula)} />
+    </p>
+  );
+}

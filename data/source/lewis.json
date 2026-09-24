@@ -1,0 +1,78 @@
+[
+  {
+    "mf": "HCN",
+    "smiles": "C#N"
+  },
+  {
+    "mf": "HNO3",
+    "smiles": "O=[N+](O)[O-]"
+  },
+  {
+    "mf": "H3PO4",
+    "smiles": "O=P(O)(O)O"
+  },
+  {
+    "mf": "H2SO4",
+    "smiles": "O=S(=O)(O)O"
+  },
+  {
+    "mf": "H2SO3",
+    "smiles": "O=S(O)O"
+  },
+  {
+    "mf": "HClO",
+    "smiles": "OCl"
+  },
+  {
+    "mf": "H2O2",
+    "smiles": "OO"
+  },
+  {
+    "mf": "H3PO3",
+    "smiles": "OP(O)O"
+  },
+  {
+    "mf": "HClO2",
+    "smiles": "O=ClO"
+  },
+  {
+    "mf": "HBO2",
+    "smiles": "O=BO"
+  },
+  {
+    "mf": "H3BO3",
+    "smiles": "OB(O)O"
+  },
+  {
+    "mf": "H2CO3",
+    "smiles": "O=C(O)O"
+  },
+  {
+    "mf": "H4P2O7",
+    "smiles": "O=P(O)(O)OP(=O)(O)O"
+  },
+  {
+    "mf": "HCOOH",
+    "smiles": "O=CO"
+  },
+  {
+    "mf": "CH3COOH",
+    "smiles": "CC(=O)O"
+  },
+  {
+    "mf": "H2C2O4",
+    "smiles": "O=C(O)C(=O)O"
+  },
+  {
+    "mf": "HClO3",
+    "smiles": "O=Cl(=O)O"
+  },
+  {
+    "mf": "HClO4",
+    "smiles": "O=Cl(=O)(=O)O"
+  },
+  {
+    "mf": "HBrO2",
+    "smiles": "O=BrO"
+  }
+]

@@ -1,0 +1,1106 @@
+[
+  {
+    "mf": "H2O",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Eau",
+    "name": "Water",
+    "level": 100
+  },
+  {
+    "mf": "H2O2",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -1
+      }
+    ],
+    "nom": "Peroxyde d'hydrogène",
+    "name": "Hydrogen peroxide",
+    "level": 100
+  },
+  {
+    "mf": "NaCl",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "Cl",
+        "oxidation": -1
+      }
+    ],
+    "nom": "Chlorure de sodium",
+    "name": "Sodium chloride",
+    "level": 100
+  },
+  {
+    "mf": "H3PO4",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "P",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Acide phosphorique",
+    "name": "Phosphoric acid",
+    "level": 100
+  },
+  {
+    "mf": "NO3-",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Nitrate",
+    "name": "Nitrate",
+    "level": 100
+  },
+  {
+    "mf": "KMnO4",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "Mn",
+        "oxidation": 7
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Permanganate de potassium",
+    "name": "Potassium permanganate",
+    "level": 200
+  },
+  {
+    "mf": "NH4+",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "nom": "Ammonium",
+    "name": "Ammonium",
+    "level": 100
+  },
+  {
+    "mf": "Fe2(SO4)3",
+    "atoms": [
+      {
+        "atom": "Fe",
+        "oxidation": 3
+      },
+      {
+        "atom": "S",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Iron (III) sulfate",
+    "nom": "Sulfate de fer (III)",
+    "level": 200
+  },
+  {
+    "mf": "KOH",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "nom": "Hydroxyde de potassium",
+    "name": "Potassium hydroxide",
+    "level": 100
+  },
+  {
+    "mf": "K2Cr2O7",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "Cr",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Dichromate de potassium",
+    "name": "Potassium dichromate",
+    "level": 200
+  },
+  {
+    "mf": "KH",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "H",
+        "oxidation": -1
+      }
+    ],
+    "name": "Potassium hydride",
+    "nom": "Hydrure de potassium",
+    "level": 100
+  },
+  {
+    "mf": "PH3",
+    "atoms": [
+      {
+        "atom": "P",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "nom": "Phosphine",
+    "name": "Phosphine",
+    "level": 100
+  },
+  {
+    "mf": "N2O",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Nitrous oxide",
+    "nom": "Oxyde nitreux",
+    "level": 100
+  },
+  {
+    "mf": "N2",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": 0
+      }
+    ],
+    "nom": "Diazote",
+    "name": "Nitrogen",
+    "level": 100
+  },
+  {
+    "mf": "HPO3",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "P",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Metaphosphoric acid",
+    "nom": "Acide métaphosphorique",
+    "level": 100
+  },
+  {
+    "mf": "HNO3",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "N",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Nitric acid",
+    "nom": "Acide nitrique",
+    "level": 100
+  },
+  {
+    "mf": "Sb2O5",
+    "atoms": [
+      {
+        "atom": "Sb",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Pentoxyde d'antimoine",
+    "name": "Antimony pentoxide",
+    "level": 200
+  },
+  {
+    "mf": "NO2",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Dioxyde d'azote",
+    "name": "Nitrogen dioxide",
+    "level": 100
+  },
+  {
+    "mf": "SF6",
+    "atoms": [
+      {
+        "atom": "S",
+        "oxidation": 6
+      },
+      {
+        "atom": "F",
+        "oxidation": -1
+      }
+    ],
+    "name": "Sulfur hexafluoride",
+    "nom": "Hexafluorure de soufre",
+    "level": 100
+  },
+  {
+    "mf": "H2S",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "S",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Sulfure d'hydrogène",
+    "name": "Hydrogen sulfide",
+    "level": 100
+  },
+  {
+    "mf": "Cu(NO3)2",
+    "atoms": [
+      {
+        "atom": "Cu",
+        "oxidation": 2
+      },
+      {
+        "atom": "N",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Copper (II) nitrate",
+    "nom": "Nitrate de cuivre",
+    "level": 200
+  },
+  {
+    "mf": "NH4Cl",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "Cl",
+        "oxidation": -1
+      }
+    ],
+    "name": "Ammonium chloride",
+    "nom": "Chlorure d'ammonium",
+    "level": 100
+  },
+  {
+    "nom": "Amidure de sodium",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "mf": "NaNH2",
+    "name": "Sodium amide",
+    "level": 100
+  },
+  {
+    "mf": "NH3",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "nom": "Ammoniac",
+    "name": "Ammonia",
+    "level": 100
+  },
+  {
+    "mf": "NiO2",
+    "atoms": [
+      {
+        "atom": "Ni",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Oxyde de nickel (IV)",
+    "name": "Nickel (IV) oxide",
+    "level": 100
+  },
+  {
+    "mf": "(NH4)2HPO4",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "P",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Phosphate de diammonium",
+    "name": "Diammonium phosphate",
+    "level": 200
+  },
+  {
+    "mf": "ClO4-",
+    "atoms": [
+      {
+        "atom": "Cl",
+        "oxidation": 7
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Perchlorate anion",
+    "nom": "Anion perchlorate",
+    "level": 100
+  },
+  {
+    "mf": "S2O3-2",
+    "atoms": [
+      {
+        "atom": "S",
+        "oxidation": 2
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Ion thiosulfate",
+    "name": "Thiosulfate",
+    "level": 200
+  },
+  {
+    "mf": "NH2CONH2",
+    "atoms": [
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Urée",
+    "name": "Urea",
+    "level": 200
+  },
+  {
+    "mf": "CH3CH3",
+    "atoms": [
+      {
+        "atom": "C",
+        "oxidation": -3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "nom": "Ethane",
+    "name": "Ethane",
+    "level": 100
+  },
+  {
+    "mf": "Mg(NO3)2",
+    "atoms": [
+      {
+        "atom": "Mg",
+        "oxidation": 2
+      },
+      {
+        "atom": "N",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Nitrate de magnésium",
+    "name": "Magnesium nitrate",
+    "level": 200
+  },
+  {
+    "mf": "Al2(SO4)3",
+    "atoms": [
+      {
+        "atom": "Al",
+        "oxidation": 3
+      },
+      {
+        "atom": "S",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Aluminium sulfate",
+    "nom": "Sulfate d'aluminum",
+    "level": 200
+  },
+  {
+    "mf": "CaCrO4",
+    "atoms": [
+      {
+        "atom": "Ca",
+        "oxidation": 2
+      },
+      {
+        "atom": "Cr",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Calcium chromate",
+    "nom": "Chromate de calcium",
+    "level": 100
+  },
+  {
+    "mf": "Al(H2PO4)3",
+    "atoms": [
+      {
+        "atom": "Al",
+        "oxidation": 3
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "P",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Aluminium dihydrogen phosphate",
+    "nom": "Aluminium dihydrogène phosphate",
+    "level": 200
+  },
+  {
+    "mf": "Ag2CO3",
+    "atoms": [
+      {
+        "atom": "Ag",
+        "oxidation": 1
+      },
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Carbonate d'argent",
+    "name": "Silver carbonate",
+    "level": 200
+  },
+  {
+    "mf": "Na2S2O3",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "S",
+        "oxidation": 2
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Thiosulfate de sodium",
+    "name": "Sodium thiosulfate",
+    "level": 200
+  },
+  {
+    "mf": "Cr2S3",
+    "atoms": [
+      {
+        "atom": "Cr",
+        "oxidation": 3
+      },
+      {
+        "atom": "S",
+        "oxidation": -2
+      }
+    ],
+    "name": "Chromium (III) sulfide",
+    "nom": "Sulfure de chrome (III)",
+    "level": 200
+  },
+  {
+    "mf": "K2FeO4",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "Fe",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Potassium ferrate",
+    "nom": "Potassium ferrate",
+    "level": 200
+  },
+  {
+    "mf": "NaHSO4",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "S",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Hydrogénosulfate de sodium",
+    "name": "Sodium bisulfate",
+    "level": 200
+  },
+  {
+    "mf": "NaSCN",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "S",
+        "oxidation": -2
+      },
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "N",
+        "oxidation": -3
+      }
+    ],
+    "nom": "Thiocyanate de sodium",
+    "name": "Sodium thiocyanate",
+    "level": 200
+  },
+  {
+    "mf": "NaHCO3",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Bicarbonate de sodium",
+    "name": "Sodium bicarbonate",
+    "level": 200
+  },
+  {
+    "mf": "FePO4",
+    "atoms": [
+      {
+        "atom": "Fe",
+        "oxidation": 3
+      },
+      {
+        "atom": "P",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Iron (III) phosphate",
+    "nom": "Phosphate de fer (III)",
+    "level": 100
+  },
+  {
+    "mf": "(NH4)2MoO4",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "N",
+        "oxidation": -3
+      },
+      {
+        "atom": "Mo",
+        "oxidation": 6
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Orthomolybdate d'ammonium",
+    "name": "Ammonium orthomolybdate",
+    "level": 200
+  },
+  {
+    "mf": "Na3Co(NO2)6 ",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "Co",
+        "oxidation": 3
+      },
+      {
+        "atom": "N",
+        "oxidation": 3
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Sodium cobaltinitrite",
+    "nom": "Cobaltinitrite de sodium",
+    "level": 200
+  },
+  {
+    "mf": "CS2",
+    "atoms": [
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "S",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Disulfure de carbone",
+    "name": "Carbon disulfide",
+    "level": 100
+  },
+  {
+    "mf": "KClO3",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "Cl",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Potassium chlorate",
+    "nom": "Chlorate de potassium",
+    "level": 100
+  },
+  {
+    "mf": "Pb(NO3)2",
+    "atoms": [
+      {
+        "atom": "Pb",
+        "oxidation": 2
+      },
+      {
+        "atom": "N",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Nitrate de plomb(II)",
+    "name": "Lead(II) nitrate",
+    "level": 200
+  },
+  {
+    "mf": "COCl2",
+    "atoms": [
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      },
+      {
+        "atom": "Cl",
+        "oxidation": -1
+      }
+    ],
+    "name": "Phosgene",
+    "nom": "Phosgène",
+    "level": 100
+  },
+  {
+    "mf": "HBrO",
+    "atoms": [
+      {
+        "atom": "H",
+        "oxidation": 1
+      },
+      {
+        "atom": "Br",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Acide hypobromeux",
+    "name": "Hypobromous acid",
+    "level": 100
+  },
+  {
+    "mf": "AlPO4",
+    "atoms": [
+      {
+        "atom": "Al",
+        "oxidation": 3
+      },
+      {
+        "atom": "P",
+        "oxidation": 5
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Aluminium phosphate ",
+    "nom": "Phosphate d'aluminium",
+    "level": 100
+  },
+  {
+    "mf": "K3N",
+    "atoms": [
+      {
+        "atom": "K",
+        "oxidation": 1
+      },
+      {
+        "atom": "N",
+        "oxidation": -3
+      }
+    ],
+    "name": "Potassium nitride",
+    "nom": "Potassium nitride",
+    "level": 100
+  },
+  {
+    "mf": "S8",
+    "atoms": [
+      {
+        "atom": "S",
+        "oxidation": 0
+      }
+    ],
+    "name": "Octasulfur",
+    "nom": "Cyclooctasoufre",
+    "level": 100
+  },
+  {
+    "mf": "O2",
+    "atoms": [
+      {
+        "atom": "O",
+        "oxidation": 0
+      }
+    ],
+    "nom": "Oxygène",
+    "name": "Oxygen",
+    "level": 100
+  },
+  {
+    "mf": "NaH",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "H",
+        "oxidation": -1
+      }
+    ],
+    "name": "Sodium hydride",
+    "nom": "Hydrure de sodium",
+    "level": 100
+  },
+  {
+    "mf": "NaOH",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "nom": "Hydroxyde de sodium",
+    "name": "Sodium hydroxide",
+    "level": 100
+  },
+  {
+    "mf": "LiOH",
+    "atoms": [
+      {
+        "atom": "Li",
+        "oxidation": 1
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      },
+      {
+        "atom": "H",
+        "oxidation": 1
+      }
+    ],
+    "name": "Lithium hydroxide",
+    "nom": "Hydroxyde de lithium",
+    "level": 100
+  },
+  {
+    "mf": "Cl2",
+    "atoms": [
+      {
+        "atom": "Cl",
+        "oxidation": 0
+      }
+    ],
+    "nom": "Dichlore",
+    "name": "Chlorine",
+    "level": 100
+  },
+  {
+    "mf": "Br2",
+    "atoms": [
+      {
+        "atom": "Br",
+        "oxidation": 0
+      }
+    ],
+    "name": "Bromine",
+    "nom": "Brome",
+    "level": 100
+  },
+  {
+    "mf": "CO2",
+    "atoms": [
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "nom": "Dioxyde de carbone",
+    "name": "Carbon dioxide",
+    "level": 100
+  },
+  {
+    "mf": "Na2CO3",
+    "atoms": [
+      {
+        "atom": "Na",
+        "oxidation": 1
+      },
+      {
+        "atom": "C",
+        "oxidation": 4
+      },
+      {
+        "atom": "O",
+        "oxidation": -2
+      }
+    ],
+    "name": "Sodium carbonate",
+    "nom": "Carbonate de sodium",
+    "level": 100
+  }
+]
