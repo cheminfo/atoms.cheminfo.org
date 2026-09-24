@@ -1,7 +1,6 @@
 import type { ReactElement } from 'react';
-import { MF } from 'react-mf';
 
-import { normalizeFormula } from '../chemistry/formula.ts';
+import { CopyableFormula } from './CopyableFormula.tsx';
 
 interface QuestionCompoundProps {
   /** The formula, as the data writes it. */
@@ -26,7 +25,7 @@ export function QuestionCompound(props: QuestionCompoundProps): ReactElement {
       {name === undefined ? null : (
         <span className="question-compound__name">{name}</span>
       )}
-      <MF mf={normalizeFormula(formula)} />
+      <CopyableFormula formula={formula} />
     </p>
   );
 }

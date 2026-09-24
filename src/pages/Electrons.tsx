@@ -1,11 +1,12 @@
 import type { ReactElement } from 'react';
 import { useMemo, useState } from 'react';
-import { MF } from 'react-mf';
+import { ClickToCopy } from 'react-cheminfo/ui';
 
 import { countElectrons } from '../chemistry/particles.ts';
 import { compoundName } from '../data/names.ts';
 import { formatSigned } from '../exercises/answers.ts';
 import { CalculatorTable } from '../shared/CalculatorTable.tsx';
+import { CopyableFormula } from '../shared/CopyableFormula.tsx';
 import { ExerciseSeries } from '../shared/ExerciseSeries.tsx';
 import { FormulaInput } from '../shared/FormulaInput.tsx';
 import { FormulaProblem } from '../shared/FormulaProblem.tsx';
@@ -80,9 +81,15 @@ function ElectronCalculator(): ReactElement {
               </tr>
               <tr className="calculator__total">
                 <th colSpan={3}>
-                  Electrons of <MF mf={result.count.parsed.formula} />
+                  Electrons of <CopyableFormula formula={formula} />
                 </th>
-                <td>{result.count.electrons}</td>
+                <ClickToCopy
+                  as="td"
+                  label="number of electrons"
+                  value={String(result.count.electrons)}
+                >
+                  {result.count.electrons}
+                </ClickToCopy>
               </tr>
             </>
           }

@@ -125,3 +125,13 @@ test('the Lewis reader reads the shell of every atom', async ({ page }) => {
   await expect(sulfur).toContainText('12');
   await expect(sulfur).toContainText('expanded');
 });
+
+test('a computed value is copied by clicking it', async ({ page, context }) => {
+  await context.grantPermissions(['clipboard-read', 'clipboard-write']);
+  await page.goto('/');
+  await page.getByLabel('Formula').fill('SO4(2-)');
+  await page.locator('.calculator__total td').click();
+  await expect
+    .poll(async () => page.evaluate(() => navigator.clipboard.readText()))
+    .toBe('50');
+});

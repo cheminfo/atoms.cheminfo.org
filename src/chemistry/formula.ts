@@ -163,6 +163,20 @@ export function atomCounts(parsed: ParsedFormula): Map<string, number> {
 }
 
 /**
+ * A formula as HTML, its subscripts and its charge marked up, so a value
+ * copied from the page keeps them when it is pasted into a document.
+ * @param text - A formula as typed.
+ * @returns The markup, or the text itself when it is not a formula.
+ */
+export function formulaHtml(text: string): string {
+  try {
+    return new MF(normalizeFormula(text)).toHtml();
+  } catch {
+    return text.trim();
+  }
+}
+
+/**
  * A formula written for prose, with true subscripts and superscripts and its
  * charge the way a chemist writes it: `NO₃⁻`, `Fe³⁺`, `²³⁸U¹⁹F₆`.
  * @param text - A formula as typed.

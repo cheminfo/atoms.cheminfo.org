@@ -1,10 +1,11 @@
 import type { ReactElement } from 'react';
 import { useMemo, useState } from 'react';
-import { MF } from 'react-mf';
+import { ClickToCopy } from 'react-cheminfo/ui';
 
 import { countNeutrons } from '../chemistry/particles.ts';
 import { compoundName } from '../data/names.ts';
 import { CalculatorTable } from '../shared/CalculatorTable.tsx';
+import { CopyableFormula } from '../shared/CopyableFormula.tsx';
 import { ExerciseSeries } from '../shared/ExerciseSeries.tsx';
 import { FormulaInput } from '../shared/FormulaInput.tsx';
 import { FormulaProblem } from '../shared/FormulaProblem.tsx';
@@ -70,17 +71,25 @@ function NeutronCalculator(): ReactElement {
           footer={
             <tr className="calculator__total">
               <th colSpan={5}>
-                Neutrons of <MF mf={result.count.parsed.formula} />
+                Neutrons of <CopyableFormula formula={formula} />
               </th>
-              <td>{result.count.neutrons}</td>
+              <ClickToCopy
+                as="td"
+                label="number of neutrons"
+                value={String(result.count.neutrons)}
+              >
+                {result.count.neutrons}
+              </ClickToCopy>
             </tr>
           }
         >
           {result.count.rows.map((row) => (
             <tr key={`${row.massNumber}${row.symbol}`}>
-              <td>
-                <MF mf={`[${row.massNumber}${row.symbol}]`} />
-              </td>
+              <CopyableFormula
+                as="td"
+                label="isotope"
+                formula={`[${row.massNumber}${row.symbol}]`}
+              />
               <td>{row.massNumber}</td>
               <td>{row.atomicNumber}</td>
               <td>{row.neutronsPerAtom}</td>

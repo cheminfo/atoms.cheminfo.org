@@ -2,6 +2,7 @@ import { FormGroup, HTMLSelect } from '@blueprintjs/core';
 import type { ReactElement } from 'react';
 import { useId, useState } from 'react';
 import { formatDecimal } from 'react-cheminfo/core';
+import { ClickToCopy } from 'react-cheminfo/ui';
 
 import type { TwoIsotopeElement } from '../chemistry/isotopes.ts';
 import {
@@ -92,9 +93,13 @@ function IsotopeCalculator(): ReactElement {
         footer={
           <tr className="calculator__total">
             <th>Atomic mass M</th>
-            <td colSpan={2}>
+            <ClickToCopy
+              as="td"
+              label="atomic mass"
+              value={formatDecimal(element.atomicMass, MASS_DECIMALS)}
+            >
               {formatDecimal(element.atomicMass, MASS_DECIMALS)} u
-            </td>
+            </ClickToCopy>
           </tr>
         }
       >
