@@ -2,6 +2,7 @@ import react from '@vitejs/plugin-react';
 import { cheminfoBuildInfo, cheminfoPrerender } from 'react-cheminfo/vite';
 import { defineConfig } from 'vite';
 
+import { pageContent } from './src/content.ts';
 import { ROUTES, SITE_ID, SITE_URL } from './src/routes.ts';
 
 /**
@@ -27,6 +28,9 @@ export default defineConfig({
     cheminfoPrerender({
       site: SITE_ID,
       routes: ROUTES,
+      // What each address says for itself: without it every address ships the
+      // same body, this site's menu, and a search engine folds them into one.
+      content: pageContent,
       origin: SITE_URL,
       description:
         'Count the electrons and neutrons of a formula, work out isotopic abundances, draw Lewis structures and assign oxidation states, with graded questions.',
