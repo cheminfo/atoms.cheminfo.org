@@ -1,6 +1,6 @@
 {
   "name": "atoms.cheminfo.org",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Count the electrons and neutrons of a formula, work out isotopic abundances, draw Lewis structures and assign oxidation states, with graded exercises.",
   "type": "module",
